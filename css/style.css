@@ -1,0 +1,337 @@
+/* notes */
+.section1	{font-family: 'Roboto',sans-serif;
+}
+.section1::before{
+	content:'RESTAURANT';
+	color: #5863F8;
+	font-size: 14px;
+	font-weight: 700;
+}
+.box-text-fade-2{
+	font-size: 14px;
+	color: #B1B1B1;
+	font-weight: 500;
+}
+@keyframes one{
+	0%{transform: rotate(0deg) translate(0%,0%);}
+	/*10%{transform: rotate(90deg) translate(0%,-0%);}*/
+	20%{transform: rotate(1080deg) translate(0%,0%);}
+	50%{transform: rotate(1080deg) translate(0%,0%);}
+	70%{transform: rotate(0deg) translate(0%,0%);}
+}
+/* body */
+.footer {
+	display: flex;
+	align-content: center;
+	background-image: url(../images/mohamed-ajufaan-GFcWwwGNu_w-unsplash.jpg);
+	width: 100%;
+	height: 324px;
+	background-size: cover;
+}
+.footer-b{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 324px;
+	/* background-color: #000000; */
+	/* opacity: 60%; */
+	/* padding-left: 139px;
+	padding-right: 138px; */
+	padding-top: 32px;
+	padding-bottom: 85px;
+	box-sizing: border-box;
+	background-image: url(../images/Group\ 72.jpg);
+	background-size: cover;
+}
+.footer-1{
+	display: flex;
+	justify-content: space-between;
+}
+.footer-12{
+	display: flex;
+	justify-content: space-between;
+}
+.footer-12 a{
+	margin-left: 49px;
+}
+.footer-2{
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+.footer-22{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	margin-top: 14px;
+}
+.section-1{
+	padding-top: 90px;
+	/* padding-right: 138px; */
+	padding-bottom: 90px;
+	/* padding-left: 139px; */
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.s1-div-1{
+	/* width: 444px; */
+	/* display: flex; */
+	flex-direction: column;
+}
+.s1-div-2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 535px;
+	height: 456px;
+}
+.s1-div-211{
+	width: 260px;
+	height: 185px;
+	background-image: url(../images/rhema-kallianpur-jbJ-_hw2yag-unsplash.jpg);
+	background-size: cover;
+}
+.s1-div-212{
+	width: 260px;
+	height: 185px;
+	background-image: url(../images/chelsea-gates-0653_wY0nRc-unsplash.jpg);
+	background-size: cover;
+}
+.s1-div-22{
+	width: 536px;
+	height: 260px;
+	background-image: url(../images/eddi-aguirre-ZAVHbpOn4Jk-unsplash.jpg);
+	background-size: cover;
+}
+.section-2{
+	/* height: 612px; */
+	/* padding-top: 92px;
+	padding-right: 138px;
+	padding-bottom: 90px;
+	padding-left: 139px; */
+	background-image: url(../images/127243819_136883567885290_6732542347783276695_n.jpg);
+	background-size: cover;
+}
+.section-2b{
+	height: 612px;
+	padding-top: 92px;
+	/* padding-right: 138px; */
+	padding-bottom: 90px;
+	/* padding-left: 139px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #0000009c;
+	opacity: 100%;
+	box-sizing: border-box;
+}
+.s2-div-1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	background-color: #FFFFFF;
+	padding: 27px 19px;
+}
+.s2-div-11{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	background-color: #5863F8;
+	position: relative;
+	margin-bottom: 15px;
+}
+.section-3{
+	/* padding-left: 139px; */
+	background-color: #F8F8F8;
+}
+.s3-div-1{
+	padding-top: 76px;
+	padding-bottom: 106px;
+	height: 487px;
+	box-sizing: border-box;
+}
+.s3-div-2{
+	width: 583px;
+	height: 487px;
+	background-image: url(../images/manuel-moreno-DGa0LQ0yDPc-unsplash.jpg);
+	background-size: cover;
+}
+.s4-div-img-1{
+	height: 352px;
+	width: 352px;
+	background-image: url(../images/rhema-kallianpur-jbJ-_hw2yag-unsplash.jpg);
+	background-size: cover;	
+}
+.s4-div-img-2{
+	height: 352px;
+	width: 352px;
+	background-image: url(../images/manuel-moreno-DGa0LQ0yDPc-unsplash.jpg);
+	background-size: cover;	
+}
+.footer-m{
+	padding-top: 90px;
+	padding-bottom: 40px;
+	background-color: #121212;
+}
+.footer-m-div-1{
+	width: 260px;
+	height: 191px;
+}
+
+
+/* fonts */
+.font-1{
+	font-family: Poppins;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 19px;
+}
+.font-2{
+	font-family: Poppins;
+	color: #5863F8;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 19px;	
+}
+.font-3{
+	font-family: Poppins;
+	color:#FFFFFF;
+	font-size: 42px;
+	font-weight: 900;
+	line-height: 59px;	
+}
+.font-4{
+	font-family: Poppins;
+	color:#FFFFFF;
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 30px;	
+}
+h3{
+	font-family: Poppins;
+	color:#000000;
+	font-size: 42px;
+	font-weight: 900;
+	line-height: 59px;	
+}
+p{
+	font-family: Poppins;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	line-height: 24px;
+	/* margin-top: 10px; */
+}
+h4{
+	font-family: Poppins;
+	color:#000000;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 26px;	
+}
+
+/* default */
+.x10 {
+	margin-top:10px;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+.flex-col{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;	
+}
+.pad-left{
+	padding-left: 138px;
+}
+.pad-rig{
+	padding-right: 139px;
+}
+.mar-left{
+	margin-left: 138px;
+}
+.marg-10r{
+	margin-right: 10px;
+}
+.marg-50l{
+	margin-left: 50px;
+}
+.marg-20l{
+	margin-left: 20px;
+}
+.w-580{
+	width: 580px;
+}
+.w512{
+	width: 512px;
+}
+.w-352{
+	width: 352px;
+}
+.marg-20t{
+	margin-top: 20px;
+}
+
+/* elements */
+.element{
+	width: 1px;
+	height: 19px;
+	background-color: #FFFFFF;
+	margin-left: 19px;
+	margin-right: 19px;
+}
+.AU::before{
+	content:'About Us';
+	font-family: Poppins;
+	color: #5863F8;
+	font-size: 13px;
+	font-weight: 900;
+	line-height: 19px;	
+	display: block;
+}
+.TES::before{
+	content:'TESTIMONIALS';
+	font-family: Poppins;
+	color: #5863F8;
+	font-size: 13px;
+	font-weight: 900;
+	line-height: 19px;	
+	display: block;
+}
+.PH::before{
+	content:'PHOTOS';
+	font-family: Poppins;
+	color: #5863F8;
+	font-size: 13px;
+	font-weight: 900;
+	line-height: 19px;	
+	display: block;
+}
+.but-1{
+	/* color: #FFFFFF;
+	font-family: Poppins;
+	font-size: 14px; */
+	padding: 15px 45px;
+	background-color: #5863F8;
+	border-radius: 10px;
+	display: inline-block;
+	margin-top: 20px;
+}
+.w376{
+	width: 376px;
+}
+.fade{
+	color: #B1B1B1;
+	font-size: 14px;
+	line-height: 21px;
+	font-family: Poppins;
+	margin-top: 20px;
+	width: 221px;
+}
